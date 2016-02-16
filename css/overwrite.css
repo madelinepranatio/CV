@@ -49,6 +49,6 @@ table tr td:first-child {
   text-transform: none;
 }
 
-.container {
+.extrapad {
   padding-left: 20px;
 }
