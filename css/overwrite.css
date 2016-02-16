@@ -48,3 +48,7 @@ table tr td:first-child {
 .smallcaps {
   text-transform: none;
 }
+
+.container {
+  padding-left: 20px;
+}
