@@ -18,7 +18,7 @@ header{
 
 .intro-text{
   padding-top: 320px!important;
-  padding-bottom:0 !important;
+  padding-bottom:1px !important;
   position: relative;
   background:#D74C38;
   clip-path:polygon(0 0, 50% 80px, 100% 0, 100% 100%, 0 100%);
@@ -36,4 +36,11 @@ header{
     background:#D74C38;
     clip-path:polygon(0 0, 100% 0, 50% 80px);
   }
+}
+table tr td:first-child{
+  padding-right: 10px;
+}
+.smallcaps{
+ text-transform: none;
+
 }
