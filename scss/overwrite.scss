@@ -1,0 +1,39 @@
+header{
+  background-image: url(../img/doodles.png);
+  background-repeat: repeat;
+  background-size: auto;
+  background-color:#EF4836;
+  padding-top:200px;
+}
+#services{
+  background:#D74C38;
+  color: white;
+}
+
+.madeline-cartoon{
+  margin-bottom: -300px;
+  position: relative;
+  z-index:2;
+}
+
+.intro-text{
+  padding-top: 320px!important;
+  padding-bottom:0 !important;
+  position: relative;
+  background:#D74C38;
+  clip-path:polygon(0 0, 50% 80px, 100% 0, 100% 100%, 0 100%);
+
+  .h6{
+    margin-bottom: 0;  
+  }
+
+  &:after{
+    content:"";
+    position: absolute;
+    display:block;
+    height:80px;
+    width:100%;
+    background:#D74C38;
+    clip-path:polygon(0 0, 100% 0, 50% 80px);
+  }
+}
