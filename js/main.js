@@ -13,6 +13,6 @@ $('.control').on( 'click', 'a', function(e) {
 $container.imagesLoaded(function(){
   $container.isotope({
     itemSelector: '.grid-item',
-    sortBy:'random'
+    sortBy:'original-order'
   });
 });
