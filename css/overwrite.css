@@ -99,3 +99,7 @@ a.timeline-image:hover {
 .social-buttons {
   float: right;
 }
+
+.copyright {
+  float: left;
+}
