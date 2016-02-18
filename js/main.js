@@ -9,3 +9,10 @@ $('.control').on( 'click', 'a', function(e) {
   e.preventDefault();
   $container.isotope({ filter: filterValue });
 });
+
+$container.imagesLoaded(function(){
+  $container.isotope({
+    itemSelector: '.grid-item',
+    sortBy:'random'
+  });
+});
