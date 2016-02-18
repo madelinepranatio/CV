@@ -95,3 +95,7 @@ a.timeline-image:hover {
 .control .btn {
   margin-top: 10px;
 }
+
+.social-buttons {
+  float: right;
+}
