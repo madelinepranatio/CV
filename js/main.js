@@ -16,3 +16,5 @@ $container.imagesLoaded(function(){
     sortBy:'original-order'
   });
 });
+
+smoothScroll.init();
